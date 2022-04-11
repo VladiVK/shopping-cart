@@ -24,6 +24,17 @@
 
 #### Netlify bug
 
+- For Deploying:
+
+```json
+
+  "scripts": {
+    "build": "CI= react-scripts build",
+  }
+```
+
+- For React Router
+
 Create `_redirects` file in folder `public`
 
 Content: `/* /index.html 200`
