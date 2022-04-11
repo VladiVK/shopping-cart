@@ -21,3 +21,9 @@
 #### Hero Icons
 
 - [Hero Icons](https://heroicons.com/)
+
+#### Netlify bug
+
+Create `_redirects` file in folder `public`
+
+Content: `/* /index.html 200`
