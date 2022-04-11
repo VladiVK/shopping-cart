@@ -39,7 +39,7 @@ const CartContainer = () => {
   return (
     <section className='cart'>
       <h2>your bag</h2>
-      <div>
+      <div className='cart-items__container'>
         {cartItems.map((item: any) => {
           return <CartItem key={item.id} {...item} />;
         })}

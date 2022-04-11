@@ -11,7 +11,7 @@ const CartItem = ({ id, title, price, image, quantity }: UIProduct) => {
   return (
     <article className='cart-item'>
       <img src={image} alt={title} />
-      <div>
+      <div className='cart-item__body'>
         <h4>{title}</h4>
         <h4 className='item-price'>${price}</h4>
         <div className='cart-item__btns'>
