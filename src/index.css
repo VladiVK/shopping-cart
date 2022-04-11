@@ -300,9 +300,11 @@ Cart Item
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--clr-grey-1);
 }
+/* проверить color,  */
 .amount-btn svg {
-  color: var(--clr-primary);
+  color: var(--clr-grey-1);
 }
 .amount-btn:hover svg {
   color: var(--clr-grey-5);
