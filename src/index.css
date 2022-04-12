@@ -301,9 +301,10 @@ Cart Item
   justify-content: center;
   align-items: center;
   color: var(--clr-grey-1);
+  font-size: 0.85rem;
 }
 /* проверить color,  */
-.amount-btn svg {
+.cart-item__btns .amount-btn svg {
   color: var(--clr-grey-1);
 }
 .amount-btn:hover svg {
