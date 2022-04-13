@@ -4,7 +4,7 @@
   --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
   --clr-green-light: #0acf83;
-  --clr-red-light: #ec1c5e;
+  --clr-red-light: #de054a;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.35rem;
@@ -125,7 +125,6 @@ Navbar
   margin-top: 5rem;
 }
 nav {
-  background: var(--clr-primary);
   padding: 1.25rem 2rem;
 }
 .nav-center {
@@ -266,11 +265,11 @@ Cart Item
 .item-price {
   color: var(--clr-grey-5);
 }
+/* remove button */
 .remove-btn {
   align-self: end;
   width: 24px;
   color: var(--clr-grey-1);
-  letter-spacing: var(--spacing);
   cursor: pointer;
   font-size: 0.85rem;
   background: transparent;
@@ -279,17 +278,20 @@ Cart Item
   transition: var(--transition);
 }
 .remove-btn:hover {
-  color: var(--clr-primary-light);
+  color: var(--clr-red-light);
 }
+/* end of  remove button */
 
 .cart-item__btns {
   display: inline-grid;
-  grid-template-columns: auto 1.55rem auto;
+  grid-template-columns: 24px 1.55rem 24px;
   gap: 0.8rem;
 }
 .item-quantity {
   text-align: center;
 }
+
+/* amount button */
 .amount-btn {
   width: 24px;
   padding: 2px;
@@ -303,13 +305,20 @@ Cart Item
   color: var(--clr-grey-1);
   font-size: 0.85rem;
 }
-/* проверить color,  */
-.cart-item__btns .amount-btn svg {
+
+/* .cart-item__btns .amount-btn svg {
+  width: 100%;
   color: var(--clr-grey-1);
 }
 .amount-btn:hover svg {
   color: var(--clr-grey-5);
+} */
+
+.amount-btn:hover {
+  color: var(--clr-grey-5);
 }
+/* end of amount button */
+
 .amount {
   text-align: center;
   margin-bottom: 0;

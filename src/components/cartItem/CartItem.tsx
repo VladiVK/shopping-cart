@@ -36,8 +36,7 @@ const CartItem = ({ id, title, price, image, quantity }: UIProduct) => {
           </button>
           <span className='item-quantity'>{quantity}</span>
           <button className='amount-btn' onClick={() => dispatch(increase(id))}>
-            {/* <PlusIcon /> */}
-            <TrashIcon />
+            <PlusIcon />
           </button>
         </div>
       </div>
@@ -55,8 +54,7 @@ const CartItem = ({ id, title, price, image, quantity }: UIProduct) => {
           return;
         }}
       >
-        <MinusIcon />
-        {/* <TrashIcon /> */}
+        <TrashIcon />
       </button>
     </article>
   );
