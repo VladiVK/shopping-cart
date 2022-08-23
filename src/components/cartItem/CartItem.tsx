@@ -32,11 +32,13 @@ const CartItem = ({ id, title, price, image, quantity }: UIProduct) => {
               dispatch(decrease(id));
             }}
           >
-            <MinusIcon />
+            {/* <MinusIcon /> */}
+            &#x2212;
           </button>
           <span className='item-quantity'>{quantity}</span>
           <button className='amount-btn' onClick={() => dispatch(increase(id))}>
-            <PlusIcon />
+            {/* <PlusIcon /> */}
+            &#43;
           </button>
         </div>
       </div>
