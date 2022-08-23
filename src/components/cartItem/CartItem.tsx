@@ -56,8 +56,8 @@ const CartItem = ({ id, title, price, image, quantity }: UIProduct) => {
           return;
         }}
       >
-        {/* <TrashIcon /> */}
-        &#128465;
+        <TrashIcon />
+        {/* &#128465; */}
       </button>
     </article>
   );
